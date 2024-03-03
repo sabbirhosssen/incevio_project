@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'zodiak':['Zodiak','Regular']
+      'zodiak': ['Zodiak', 'Regular'],
+      'inter':["Inter", "sans-serif"],
     }
   },
   plugins: [],

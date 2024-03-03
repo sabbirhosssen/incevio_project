@@ -6,3 +6,7 @@
     font-family: 'Zodiak';
     src: url(./fonts/Zodiak-Regular.ttf);
 }
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Regular.ttf);
+}
