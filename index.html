@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./output/style.css" />
+    <link rel="stylesheet" href="./carousel.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Incevio Project</title>
   </head>
@@ -87,56 +88,93 @@
       <section class="w-full mt-[2%] mb-[2%] ps-[8%] pe-[8%]  ">
         <div class="grid grid-cols-12  gap-7">
 
-         <aside class="w-full bg-[#FFFFFF] ps-6 pt-[2%] pb-[2%] col-span-3 ...">
+         <aside class="w-full bg-[#FFFFFF] ps-6 pt-[2%] pb-[2%] col-span-12 md:col-span-3 ...">
           <div class="jf">
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">All Categories</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Cars and Motorcycles</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Music and Books</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Arts and Crafts</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Moms and Babies</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Softwares</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Home & Garden</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Electronics</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Kids and Toy</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Clothing and Shoes</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Beauty and Health</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Sports</p>   </div>
-            <div class="flex justify-start items-center gap-1 mb-1 "><img src="./images/categories/award.png" alt=""> <p class="text-sm">Jewellery</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">All Categories</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Cars and Motorcycles</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Music and Books</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Arts and Crafts</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Moms and Babies</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Softwares</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Home & Garden</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Electronics</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Kids and Toy</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Clothing and Shoes</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Beauty and Health</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Sports</p>   </div>
+            <div class="flex justify-start items-center gap-1 mb-1 md:mb-0 "><img src="./images/categories/award.png" alt=""> <p class=" text-xs md:text-sm">Jewellery</p>   </div>
           </div>
          </aside>
-         <article class="w-full  col-span-9 ...">
+         <article class="w-full  col-span-12 md:col-span-9 ...">
           <div class="flex justify-between gap-7">
-            <div class="">
-            <div class=" h-[80%]"> 
-              <img class="w-full h-fit" src="./images/categories/Frame 61.png" alt="">
+            <div class="h-[100%]">
+            <div class=" "> 
+              <img class="w-full h-auto " src="./images/categories/Frame 61.png" alt="">
             </div>
-            <div class="h-min overflow-hidden flex justify-center items-center gap-1">
-              <img src="./images/brands/Categories_brands/Brand Card1.png" alt="">
-              <img src="./images/brands/Categories_brands/Brand Card2.png" alt="">
-              <img src="./images/brands/Categories_brands/Brand Card3.png" alt="">
-              <img src="./images/brands/Categories_brands/Brand Card4.png" alt="">
-              <img src="./images/brands/Categories_brands/Brand Card5.png" alt="">
-              <img src="./images/brands/Categories_brands/Brand Card6.png" alt="">
-              <img src="./images/brands/Categories_brands/Brand Card7.png" alt="">
+            <div class="h-min">
+              <section>
+
+                <div>
+                  <div class=" js-carousel">
+                    <div class="px-[1%]  w-12/12 mx-auto flex flex-col gap-4">
+                     
+                  
+                      <div class="flex items-center flex-row justify-center gap-1">
+                        <div class="cursor-pointer js-carousel-btn-left">
+                          <img class="w-[68px]" src="./images/global_image/chevron-left.png" alt="">
+                        </div>
+                  
+                        <div class="flex flex-row gap-1 max-w-full h-full overflow-x-hidden js-carousel-viewport">
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card2.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card3.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card4.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card5.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card6.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card7.png" alt="">
+                          </div>
+                          
+                        </div>
+                        <div class="cursor-pointer js-carousel-btn-right">
+                          <img class="w-[68px]" src="./images/global_image/chevron- right.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
               
             </div>
           </div>
-          <div class=" bg-[#FFFFFF] ps-6 pe-6 pt-4 pb-4  ">
-            <p class="font-inter text-xs mb-2">Good Afternoon, John Smith</p>
+          <div class=" bg-[#FFFFFF] ps-2 pe-2 pb-0 pt-0 md:pt-4 md:pb-4  ">
+            <p class="font-inter text-[9px] md:text-xs mb-2">Good Afternoon, John Smith</p>
             <img class="pt-1" src="./images/categories/Frame 26689.png" alt="">
             <img class="mt-5 mb-5" src="./images/categories/Frame 68.png" alt="">
-            <button class="bg-[#194E8A] text-white w-full pt-2 pb-2" >Add to Cart</button>
+            <button class="bg-[#194E8A] text-white text-[14px] w-full pt-2 pb-2  md:text-lg" >Add to Cart</button>
           </div>
           </div>
          </article>
          
           
         </div>
-        <div class="flex justify-between items-center gap-6">
-          <div class="flex justify-center items-center gap-1 p-6"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-2"><p>Quick & Easy Store Pickup</p> <p>Get your order as little as 1hr</p></div> </div>
-          <div class="flex justify-center items-center gap-1 p-6"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-2"><p>Low Price Guarantee</p> <p>We won’t be beat on price</p></div> </div>
-          <div class="flex justify-center items-center gap-1 p-6"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-2"><p>Knowledgeable Advice</p> <p>Answer to your tech questions</p></div> </div>
-          <div class="flex justify-center items-center gap-1 p-6"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-2"><p>Lates & Greatest Tech</p> <p>Discover whats new & excitings</p></div> </div>
+        <div class="flex justify-between items-center gap-2 md:mt-7 font-inter">
+          <div class="flex justify-center items-center gap-1 p-1"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-1"><p class="text-[12px] md:text-sm font-semibold">Quick & Easy Store Pickup</p> <p class="text-[8px] md:text-xs" >Get your order as little as 1hr</p></div> </div>
+          <div class="flex justify-center items-center gap-1 p-1"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-1"><p class="text-[12px] md:text-sm font-semibold">Low Price Guarantee</p> <p class="text-[8px] md:text-xs" >We won’t be beat on price</p></div> </div>
+          <div class="flex justify-center items-center gap-1 p-1"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-1"><p class="text-[12px] md:text-sm font-semibold">Knowledgeable Advice</p> <p class="text-[8px] md:text-xs" >Answer to your tech questions</p></div> </div>
+          <div class="flex justify-center items-center gap-1 p-1"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-1"><p class="text-[12px] md:text-sm font-semibold">Lates & Greatest Tech</p> <p class="text-[8px] md:text-xs" >Discover whats new & excitings</p></div> </div>
         </div>
       </section>
       <section class="w-full mt-[4%] mb-[4%] ps-[8%] pe-[8%]  ">
@@ -492,6 +530,53 @@
       </section>
     </main>
 
+     <section>
+
+                <div>
+                  <div class=" js-carousel">
+                    <div class="px-[1%]  w-12/12 mx-auto flex flex-col gap-4">
+                     
+                  
+                      <div class="flex items-center flex-row justify-center gap-2">
+                        <div class="cursor-pointer js-carousel-btn-left">
+                          <img class="w-[88px]" src="./images/global_image/chevron-left.png" alt="">
+                        </div>
+                  
+                        <div class="flex flex-row gap-1 max-w-full h-full overflow-x-hidden js-carousel-viewport">
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          <div class="w-4/12 gap-1 flex-col p-2 items-center flex-shrink-0 flex justify-center text-center">
+                             <img class="w-fit" src="./images/brands/Categories_brands/Brand Card1.png" alt="">
+                          </div>
+                          
+                        </div>
+                        <div class="cursor-pointer js-carousel-btn-right">
+                          <img class="w-[88px]" src="./images/global_image/chevron- right.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+   
+
     <footer class="w-full">
      <section class="w-full mt-[2%] mb-[2%] ps-[8%] pe-[8%]">
       <div class="lg:grid lg:grid-cols-4 lg:gap-7 pt-[2%] pb-[2%]">
@@ -578,5 +663,6 @@
       </div>
 
     </footer>
+    <script src="./src/js/carsousel.js"></script>
   </body>
 </html>
