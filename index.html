@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./output/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Incevio Project</title>
   </head>
   <body class="h-screen bg-[#F1F0EE]">
@@ -82,30 +83,38 @@
       </nav>
     </header>
     <main>
+      <!-- <section class="grid grid-cols-12">
+        <div class="min-h-24 col-span-4 p-10 bg-indigo-600 rounded-"></div>
+        <div class="min-h-24 p-10 bg-yellow-300 rounded-"></div>
+        <div class="min-h-24 p-10 bg-red-500 rounded-"></div>
+      </section> -->
       <section class="w-full mt-[2%] mb-[2%] ps-[8%] pe-[8%]  ">
-        <div class="flex justify-between items-center">
+        <div class="grid grid-cols-4  gap-7">
 
-         <aside class="bg-[#FFFFFF] ps-6 pt-[2%] pb-[2%] w-3/12 ">
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>All Categories</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Cars and Motorcycles</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Music and Books</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Arts and Crafts</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Moms and Babies</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Softwares</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Home & Garden</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Electronics</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Kids and Toy</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Clothing and Shoes</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Beauty and Health</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Sports</p>   </div>
-          <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Jewellery</p>   </div>
+         <aside class="w-full bg-[#FFFFFF] ps-6 pt-[2%] pb-[2%] col-span-1 ...">
+          <div class="jf">
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>All Categories</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Cars and Motorcycles</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Music and Books</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Arts and Crafts</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Moms and Babies</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Softwares</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Home & Garden</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Electronics</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Kids and Toy</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Clothing and Shoes</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Beauty and Health</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Sports</p>   </div>
+            <div class="flex justify-start items-center gap-4 mb-3 "><img src="./images/categories/award.png" alt=""> <p>Jewellery</p>   </div>
+          </div>
          </aside>
-         <article class="flex justify-between items-center gap-7 w-3/4">
-          <div class="w-3/4">
-            <div class="w-full h-[80%]"> 
-              <img class="w-full h-fit" src="./images/categories/Frame 61.png" alt="">
+         <article class="w-full  col-span-3 ...">
+          <div class="flex justify-between gap-7">
+            <div class="">
+            <div class=" h-[80%]"> 
+              <img class="w-full " src="./images/categories/Frame 61.png" alt="">
             </div>
-            <div class="h-min flex justify-center items-center gap-1">
+            <div class="h-min overflow-hidden flex justify-center items-center gap-1">
               <img src="./images/brands/Categories_brands/Brand Card1.png" alt="">
               <img src="./images/brands/Categories_brands/Brand Card2.png" alt="">
               <img src="./images/brands/Categories_brands/Brand Card3.png" alt="">
@@ -116,15 +125,16 @@
               
             </div>
           </div>
-          <div class="w-1/4 bg-[#FFFFFF] ps-6 pt-[2%] pb-[2%] ">
-            <p>Good Afternoon, John Smith</p>
-            <img src="./images/categories/Frame 26689.png" alt="">
-            <img src="./images/categories/Frame 68.png" alt="">
-            <button class="bg-[#194E8A] text-white w-full" >Add to Cart</button>
+          <div class=" bg-[#FFFFFF] ps-6 pe-6 pt-8 pb-8  ">
+            <p class="font-inter text-xs mb-4">Good Afternoon, John Smith</p>
+            <img class="pt-5" src="./images/categories/Frame 26689.png" alt="">
+            <img class="mt-5 mb-5" src="./images/categories/Frame 68.png" alt="">
+            <button class="bg-[#194E8A] text-white w-full pt-2 pb-2" >Add to Cart</button>
+          </div>
           </div>
          </article>
          
-      
+          
         </div>
         <div class="flex justify-between items-center gap-6">
           <div class="flex justify-center items-center gap-1 p-6"> <img src="./images/categories/Frame 40.png" alt=""> <div class="text-start ps-2"><p>Quick & Easy Store Pickup</p> <p>Get your order as little as 1hr</p></div> </div>
