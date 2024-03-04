@@ -771,6 +771,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.ms-0 {
+  margin-inline-start: 0px;
+}
+
 .ms-1 {
   margin-inline-start: 0.25rem;
 }
@@ -809,10 +813,6 @@ video {
 
 .mt-\[6\%\] {
   margin-top: 6%;
-}
-
-.ms-0 {
-  margin-inline-start: 0px;
 }
 
 .box-border {
@@ -1367,16 +1367,8 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-cols-8 {
-  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -2214,18 +2206,14 @@ video {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .px-\[1\%\] {
   padding-left: 1%;
   padding-right: 1%;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .pb-0 {
@@ -2384,11 +2372,6 @@ video {
   font-family: Zodiak, Regular;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-\[10px\] {
   font-size: 10px;
 }
@@ -2399,6 +2382,10 @@ video {
 
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[8px\] {
@@ -2983,6 +2970,14 @@ video {
     margin-bottom: 0.25rem;
   }
 
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:ms-3 {
+    margin-inline-start: 0.75rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -2993,14 +2988,6 @@ video {
 
   .md\:mt-7 {
     margin-top: 1.75rem;
-  }
-
-  .md\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
-  .md\:ms-3 {
-    margin-inline-start: 0.75rem;
   }
 
   .md\:flex {
@@ -3015,13 +3002,13 @@ video {
     height: auto;
   }
 
+  .md\:w-3\/12 {
+    width: 25%;
+  }
+
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
-  }
-
-  .md\:w-3\/12 {
-    width: 25%;
   }
 
   .md\:flex-none {
@@ -3056,6 +3043,10 @@ video {
     gap: 0.5rem;
   }
 
+  .md\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .md\:gap-4 {
     gap: 1rem;
   }
@@ -3070,6 +3061,10 @@ video {
 
   .md\:pb-4 {
     padding-bottom: 1rem;
+  }
+
+  .md\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .md\:pe-0 {
@@ -3090,10 +3085,6 @@ video {
 
   .md\:pt-4 {
     padding-top: 1rem;
-  }
-
-  .md\:pb-5 {
-    padding-bottom: 1.25rem;
   }
 
   .md\:text-2xl {

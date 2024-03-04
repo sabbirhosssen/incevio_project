@@ -1,2 +1,8 @@
 /node_modules
 /build
+/dist
+images/*
+/images
+/.vscode
+.png
+images*"images" 
