@@ -5,4 +5,5 @@ images/*
 /images
 /.vscode
 .png
-images*"images" 
+images*"images"
+images*
